@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleApp", "RectangleApp\RectangleApp.csproj", "{B5FA6E28-1F80-4496-A090-1350628571F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleApp.Tests", "RectangleApp.Tests\RectangleApp.Tests.csproj", "{6F096D74-19E2-4004-8A65-CEC07DF2FD00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B5FA6E28-1F80-4496-A090-1350628571F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5FA6E28-1F80-4496-A090-1350628571F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5FA6E28-1F80-4496-A090-1350628571F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F096D74-19E2-4004-8A65-CEC07DF2FD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F096D74-19E2-4004-8A65-CEC07DF2FD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F096D74-19E2-4004-8A65-CEC07DF2FD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F096D74-19E2-4004-8A65-CEC07DF2FD00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
