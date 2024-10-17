@@ -1,0 +1,15 @@
+@model RectangleDrawer.Models.RectangleModel
+
+@{
+    ViewData["Title"] = "Draw Rectangle";
+}
+
+<h2>Draw Rectangle</h2>
+
+@* <div style="width: @Model.Widthpx; height: @Model.Heightpx; background-color: @Model.FillColor; border: 1px solid black;"> *@
+@* </div> *@
+
+<div style="width: @($"{Model.Width}px"); height: @($"{Model.Height}px"); background-color: @Model.FillColor; border: 1px solid black;">
+</div>
+
+<a asp-action="Create" class="btn btn-secondary">Draw another rectangle</a>

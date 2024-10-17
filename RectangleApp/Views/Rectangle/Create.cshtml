@@ -1,0 +1,33 @@
+@model RectangleDrawer.Models.RectangleModel
+
+@{
+    ViewData["Title"] = "Create Rectangle";
+}
+
+<h2>Create Rectangle</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Width"></label>
+        <input asp-for="Width" class="form-control" />
+        <span asp-validation-for="Width" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Height"></label>
+        <input asp-for="Height" class="form-control" />
+        <span asp-validation-for="Height" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FillColor"></label>
+        <input asp-for="FillColor" class="form-control" placeholder="#FF5733" />
+        <span asp-validation-for="FillColor" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Draw Rectangle</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
