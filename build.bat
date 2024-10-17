@@ -1,6 +1,6 @@
 @echo off
 
-set PROJECT_PATH=..\RectangleApp\RectangleApp.csproj
+set PROJECT_PATH=\RectangleApp\RectangleApp.csproj
 set OUTPUT_DIRECTORY=Publish
 
 dotnet build "%PROJECT_PATH%"
